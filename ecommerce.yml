@@ -1,6 +1,6 @@
 token:
-  expiration_time: 86400000
-  secret: thisIsUserServiceSecretTokenForJWTTokenServicePleaseBeAwarevalueissososogood
+  expiration_time: 8640
+  secret: thisIsUserServiceSecretTokenForJWTTokenServicePleaseBeAwarevalueissoswelkfjlwejf
 
 gateway:
   ip: 127.0.0.1
