@@ -1,5 +1,5 @@
 token:
-  expiration_time: 86412345
+  expiration_time: 864123123123
   secret: thisIsUserServiceSecretTokenForJWTTokenServicePleaseBeAwarevalurhhrhrhggegegege
 
 gateway:
