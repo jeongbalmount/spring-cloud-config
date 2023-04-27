@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3308/mydb
+    username: root
+    password: test1357
+    driver-class-name: org.mariadb.jdbc.Driver
+    # url: jdbc:h2:tcp://localhost/~/user-service
+    # username: sa
+    # password: '{cipher}AQDE+stQ/aUMvY5recRSflVSA97hF2auMlT04GLBYwxypApKsv1sR+KZ7WWoOSWyqkUHxPsSUsOQLQ1/7/i+a4FPa2/a71BOlICAYd8b8cIjoTNaKYqczfo7Hc3nW/6ZuOM+8Sn6rA5Cpxg8NkhRGo14caX9UNxRWQQ2sr8IsPAITJBDaj+G03bxFN9RsbVbJt1rJh4bvWLU07khqbzXiSA6XOJDYJ7SdWocBePCdllalKhZutukg7wQRWHRoqwzzjbyS+lJc60qBvQgM7VRkKqOZtypsKVDUcRVj8UkruAoFDLgIkmoyvYhJPlsbQA71IkZ/C7m0uYWyR0EDC2YSIpcL7fjI/GAKERkrHeIkZpioCCQ5sN900TH5ohVN4RPwwk='
+    # driver-class-name: org.h2.Driver
+token:
+  expiration_time: 864000000
+  secret: '{cipher}AQCCBKDoltCvNRxCfnrVIfD42H12mgWItZyBh8SlWkLEvP5B62rrC0eO+6CaJ14h4svFzZ7JUAGoWp0PaIDU/MlIflJ11KmnBCpIUvaUqjDxpja74KuPmARMvLAYWAxN44DqHb9DdNUqK2qEmVeVVSRcyqowHDp1WE/287EG6MvF38aX4oLo0ZXaFq9yFO8DQSu6GFqcxZfE0iEpSg26vbEQNXt9TuNhLNHmgRlUNfaBLdqWhx+Mx5ASePUCnAYaTCfiTrJm8EJSdiReifCEg8kJqfPrvrKYKMvq3L+9mQfeiL1I/2ajycTDx7F2gf5o1lGYbp14DFsflXIwccyZLjV687LFHEEnjSkZKT4uQmELN/j9MWNdoAIkNEUKtk+JosMO2+PDl1ll8+pIBqgZrN19SfM+aSz0S1nBYJT9IWnCkoj+bQ94m9pv1knpmHpfhx7EjqZy+yt+UqaOCpY733rfEonDsZKVZLpgJOEPtDks+Q=='
+
+order_service:
+  url: http://order-service/order-service/%s/orders
+  exception:
+    orders_is_empty: no orders
+
+gateway:
+  ip: 127.0.0.1
