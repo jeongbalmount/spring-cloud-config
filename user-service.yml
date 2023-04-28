@@ -18,4 +18,4 @@ order_service:
     orders_is_empty: no orders
 
 gateway:
-  ip: 127.0.0.1
+  ip: 172.22.0.10
